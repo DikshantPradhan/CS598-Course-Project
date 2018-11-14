@@ -1,0 +1,333 @@
+ESTID	GeneID	GOTerm	Description	GOTermDescription
+YBR018C	GAL7	GO:0005975	Galactose-1-phosphate uridyl transferase	Carbohydrate metabolism
+YBR019C	GAL10	GO:0005975	UDP-glucose-4-epimerase	Carbohydrate metabolism
+YBR020W	GAL1	GO:0005975	Galactokinase	Carbohydrate metabolism
+YBR229C	ROT2	GO:0005975	Glucosidase II catalytic subunit	Carbohydrate metabolism
+YBR299W	MAL32	GO:0005975	Maltase (alpha-D-glucosidase)	Carbohydrate metabolism
+YCL040W	GLK1	GO:0005975	Glucokinase	Carbohydrate metabolism
+YCR005C	CIT2	GO:0005975	"Citrate synthase, peroxisomal isozyme involved in glyoxylate cycle"	Carbohydrate metabolism
+YCR036W	RBK1	GO:0005975	Putative ribokinase	Carbohydrate metabolism
+YCR073W-A	SOL2	GO:0005975	Protein with a possible role in tRNA export	Carbohydrate metabolism
+YDL022W	GPD1	GO:0005975	NAD-dependent glycerol-3-phosphate dehydrogenase	Carbohydrate metabolism
+YDL078C	MDH3	GO:0005975	Peroxisomal malate dehydrogenase	Carbohydrate metabolism
+YDR009W	GAL3	GO:0005975	Transcriptional regulator	Carbohydrate metabolism
+YDR109C	YDR109C	GO:0005975	D-ribulokinase	Carbohydrate metabolism
+YDR248C	YDR248C	GO:0005975	Putative gluconokinase	Carbohydrate metabolism
+YDR261C	EXG2	GO:0005975	"Exo-1,3-beta-glucanase"	Carbohydrate metabolism
+YDR371W	CTS2	GO:0005975	Putative chitinase	Carbohydrate metabolism
+YDR477W	SNF1	GO:0005975	AMP-activated S/T protein kinase	Carbohydrate metabolism
+YDR516C	EMI2	GO:0005975	Non-essential protein of unknown function	Carbohydrate metabolism
+YEL011W	GLC3	GO:0005975	"Glycogen branching enzyme, involved in glycogen accumulation"	Carbohydrate metabolism
+YEL040W	UTR2	GO:0005975	Chitin transglycosylase	Carbohydrate metabolism
+YEL058W	PCM1	GO:0005975	Essential N-acetylglucosamine-phosphate mutase	Carbohydrate metabolism
+YER003C	PMI40	GO:0005975	Mannose-6-phosphate isomerase	Carbohydrate metabolism
+YER059W	PCL6	GO:0005975	Pho85p cyclin of the Pho80p subfamily	Carbohydrate metabolism
+YER133W	GLC7	GO:0005975	Type 1 S/T protein phosphatase (PP1) catalytic subunit	Carbohydrate metabolism
+YFR053C	HXK1	GO:0005975	Hexokinase isoenzyme 1	Carbohydrate metabolism
+YGL028C	SCW11	GO:0005975	Cell wall protein with similarity to glucanases	Carbohydrate metabolism
+YGL035C	MIG1	GO:0005975	Transcription factor involved in glucose repression	Carbohydrate metabolism
+YGL059W	PKP2	GO:0005975	Mitochondrial protein kinase	Carbohydrate metabolism
+YGL115W	SNF4	GO:0005975	Activating gamma subunit of the AMP-activated Snf1p kinase complex	Carbohydrate metabolism
+YGL134W	PCL10	GO:0005975	Pho85p cyclin	Carbohydrate metabolism
+YAL034W-A	MTW1	GO:0000278	Essential component of the MIND kinetochore complex	Cell cycle
+YAL040C	CLN3	GO:0000278	G1 cyclin involved in cell cycle progression	Cell cycle
+YAR007C	RFA1	GO:0051321	Subunit of heterotrimeric Replication Protein A (RPA)	Cell cycle
+YBL009W	ALK2	GO:0000278	Protein kinase	Cell cycle
+YBR057C	MUM2	GO:0051321	Protein essential for meiotic DNA replication and sporulation	Cell cycle
+YBR073W	RDH54	GO:0051321	DNA-dependent ATPase	Cell cycle
+YBR088C	POL30	GO:0000278	Proliferating cell nuclear antigen (PCNA)	Cell cycle
+YBR098W	MMS4	GO:0051321	Subunit of structure-specific Mms4p-Mus81p endonuclease	Cell cycle
+YBR107C	IML3	GO:0051321	Outer kinetochore protein and component of the Ctf19 complex	Cell cycle
+YBR136W	MEC1	GO:0051321	Genome integrity checkpoint protein and PI kinase superfamily member	Cell cycle
+YBR186W	PCH2	GO:0051321	Hexameric ring ATPase that remodels chromosome axis protein Hop1p	Cell cycle
+YBR211C	AME1	GO:0051321	Essential kinetochore protein associated with microtubules and SPBs	Cell cycle
+YBR250W	SPO23	GO:0051321	Protein of unknown function	Cell cycle
+YBR267W	REI1	GO:0000278	Cytoplasmic pre-60S factor	Cell cycle
+YCL055W	KAR4	GO:0051321	Transcription factor required for response to pheromones	Cell cycle
+YCR010C	ADY2	GO:0051321	Acetate transporter required for normal sporulation	Cell cycle
+YCR086W	CSM1	GO:0051321	Nucleolar protein that mediates homolog segregation during meiosis I	Cell cycle
+YDL001W	RMD1	GO:0051321	Cytoplasmic protein required for sporulation	Cell cycle
+YDL017W	CDC7	GO:0051321	Ser/Thr kinase and catalytic subunit of DDK (Dbf4-dependent kinase)	Cell cycle
+YDL155W	CLB3	GO:0000278	B-type cyclin involved in cell cycle progression	Cell cycle
+YDL164C	CDC9	GO:0000278	DNA ligase I found in nucleus and mitochondria	Cell cycle
+YDL239C	ADY3	GO:0051321	Protein required for spore wall formation	Cell cycle
+YDR004W	RAD57	GO:0051321	Protein that stimulates strand exchange	Cell cycle
+YDR052C	DBF4	GO:0051321	Regulatory subunit of Cdc7p-Dbf4p kinase complex	Cell cycle
+YDR106W	ARP10	GO:0000278	Component of the dynactin complex	Cell cycle
+YDR108W	TRS85	GO:0051321	Component of transport protein particle (TRAPP) complex III	Cell cycle
+YDR159W	SAC3	GO:0000278	mRNA export factor	Cell cycle
+YDR254W	CHL4	GO:0051321	Outer kinetochore protein required for chromosome stability	Cell cycle
+YDR260C	SWM1	GO:0051321	Subunit of the anaphase-promoting complex (APC)	Cell cycle
+YDR273W	DON1	GO:0051321	Meiosis-specific component of the spindle pole body	Cell cycle
+YDR285W	ZIP1	GO:0051321	Transverse filament protein of the synaptonemal complex	Cell cycle
+YDR318W	MCM21	GO:0051321	Component of the kinetochore sub-complex COMA	Cell cycle
+YDR369C	XRS2	GO:0051321	Protein required for DNA repair	Cell cycle
+YDR383C	NKP1	GO:0051321	Central kinetochore protein and subunit of the Ctf19 complex	Cell cycle
+YDR386W	MUS81	GO:0051321	Subunit of structure-specific Mms4p-Mus81p endonuclease	Cell cycle
+YDR439W	LRS4	GO:0051321	Nucleolar protein that forms a complex with Csm1p	Cell cycle
+YDR457W	TOM1	GO:0000278	E3 ubiquitin ligase of the hect-domain class	Cell cycle
+YDR506C	GMC1	GO:0051321	Protein involved in meiotic progression	Cell cycle
+YDR512C	EMI1	GO:0051321	Non-essential protein of unknown function	Cell cycle
+YDR522C	SPS2	GO:0051321	Protein expressed during sporulation	Cell cycle
+YDR523C	SPS1	GO:0051321	Putative protein serine/threonine kinase	Cell cycle
+YEL072W	RMD6	GO:0051321	Protein required for sporulation	Cell cycle
+YER106W	MAM1	GO:0051321	Monopolin	Cell cycle
+YER115C	SPR6	GO:0051321	Protein of unknown function	Cell cycle
+YER132C	PMD1	GO:0051321	Protein with an N-terminal kelch-like domain	Cell cycle
+YER133W	GLC7	GO:0051321	Type 1 S/T protein phosphatase (PP1) catalytic subunit	Cell cycle
+YER180C	ISC10	GO:0051321	Protein required for sporulation	Cell cycle
+YFL003C	MSH4	GO:0051321	Protein involved in meiotic recombination	Cell cycle
+YFL009W	CDC4	GO:0051321	F-box protein required for both the G1/S and G2/M phase transitions	Cell cycle
+YFL029C	CAK1	GO:0051321	Cyclin-dependent kinase-activating kinase	Cell cycle
+YFL033C	RIM15	GO:0051321	Protein kinase involved in cell proliferation in response to nutrients	Cell cycle
+YFL037W	TUB2	GO:0000278	Beta-tubulin	Cell cycle
+YFR028C	CDC14	GO:0000278	Protein phosphatase required for mitotic exit	Cell cycle
+YFR028C	CDC14	GO:0051321	Protein phosphatase required for mitotic exit	Cell cycle
+YFR048W	RMD8	GO:0051321	Cytosolic protein required for sporulation	Cell cycle
+YAL001C	TFC3	GO:0003677	Subunit of RNA polymerase III transcription initiation factor complex	DNA binding
+YAL015C	NTG1	GO:0003677	DNA N-glycosylase and apurinic/apyrimidinic (AP) lyase	DNA binding
+YAL019W	FUN30	GO:0003677	Snf2p family member with ATP-dependent chromatin remodeling activity	DNA binding
+YAL034C	FUN19	GO:0003677	Non-essential protein of unknown function	DNA binding
+YAL051W	OAF1	GO:0003677	Oleate-activated transcription factor	DNA binding
+YAR007C	RFA1	GO:0003677	Subunit of heterotrimeric Replication Protein A (RPA)	DNA binding
+YBL002W	HTB2	GO:0003677	Histone H2B	DNA binding
+YBL003C	HTA2	GO:0003677	Histone H2A	DNA binding
+YBL005W	PDR3	GO:0003677	Transcriptional activator of the pleiotropic drug resistance network	DNA binding
+YBL008W	HIR1	GO:0003677	Subunit of the HIR complex	DNA binding
+YBL010C	YBL010C	GO:0003677	Putative protein of unknown function	DNA binding
+YBL019W	APN2	GO:0003677	Class II abasic (AP) endonuclease involved in repair of DNA damage	DNA binding
+YBL021C	HAP3	GO:0003677	Subunit of the Hap2p/3p/4p/5p CCAAT-binding complex	DNA binding
+YBL022C	PIM1	GO:0003677	ATP-dependent Lon protease	DNA binding
+YBL023C	MCM2	GO:0003677	Protein involved in DNA replication	DNA binding
+YBL035C	POL12	GO:0003677	B subunit of DNA polymerase alpha-primase complex	DNA binding
+YBL054W	TOD6	GO:0003677	PAC motif binding protein involved in rRNA and ribosome biogenesis	DNA binding
+YBL066C	SEF1	GO:0003677	Putative transcription factor	DNA binding
+YBL103C	RTG3	GO:0003677	bHLH/Zip transcription factor for retrograde (RTG) and TOR pathways	DNA binding
+YBR010W	HHT1	GO:0003677	Histone H3	DNA binding
+YBR026C	ETR1	GO:0003677	2-enoyl thioester reductase	DNA binding
+YBR033W	EDS1	GO:0003677	"Putative zinc cluster protein, predicted to be a transcription factor"	DNA binding
+YBR049C	REB1	GO:0003677	RNA polymerase I enhancer binding protein	DNA binding
+YBR066C	NRG2	GO:0003677	Transcriptional repressor	DNA binding
+YBR073W	RDH54	GO:0003677	DNA-dependent ATPase	DNA binding
+YBR083W	TEC1	GO:0003677	Transcription factor targeting filamentation genes and Ty1 expression	DNA binding
+YBR087W	RFC5	GO:0003677	Subunit of heteropentameric Replication factor C (RF-C)	DNA binding
+YBR088C	POL30	GO:0003677	Proliferating cell nuclear antigen (PCNA)	DNA binding
+YBR098W	MMS4	GO:0003677	Subunit of structure-specific Mms4p-Mus81p endonuclease	DNA binding
+YBR114W	RAD16	GO:0003677	Nucleotide excision repair (NER) protein	DNA binding
+YBR123C	TFC1	GO:0003677	Subunit of RNA polymerase III transcription initiation factor complex	DNA binding
+YBR150C	TBS1	GO:0003677	Protein of unknown function	DNA binding
+YBR154C	RPB5	GO:0003677	RNA polymerase subunit ABC27	DNA binding
+YBR163W	EXO5	GO:0003677	Mitochondrial 5'-3' exonuclease and sliding exonuclease	DNA binding
+YBR182C	SMP1	GO:0003677	MADS-box transcription factor involved in osmotic stress response	DNA binding
+YBR193C	MED8	GO:0003677	Subunit of the RNA polymerase II mediator complex	DNA binding
+YBR202W	MCM7	GO:0003677	Component of the Mcm2-7 hexameric helicase complex	DNA binding
+YBR215W	HPC2	GO:0003677	Subunit of the HIR complex	DNA binding
+YBR239C	ERT1	GO:0003677	Transcriptional regulator	DNA binding
+YBR240C	THI2	GO:0003677	Transcriptional activator of thiamine biosynthetic genes	DNA binding
+YBR245C	ISW1	GO:0003677	ATPase subunit of imitation-switch (ISWI) class chromatin remodelers	DNA binding
+YBR297W	MAL33	GO:0003677	MAL-activator protein	DNA binding
+YCL011C	GBP2	GO:0003677	Poly(A+) RNA-binding protein	DNA binding
+YCL067C	HMLALPHA2	GO:0003677	Silenced copy of ALPHA2 at HML	DNA binding
+YCR014C	POL4	GO:0003677	DNA polymerase IV	DNA binding
+YCR018C	SRD1	GO:0003677	Protein involved in the processing of pre-rRNA to mature rRNA	DNA binding
+YCR028C-A	RIM1	GO:0003677	ssDNA-binding protein essential for mitochondrial genome maintenance	DNA binding
+YCR033W	SNT1	GO:0003677	Subunit of the Set3C deacetylase complex	DNA binding
+YCR065W	HCM1	GO:0003677	Forkhead transcription factor	DNA binding
+YCR066W	RAD18	GO:0003677	E3 ubiquitin ligase	DNA binding
+YCR092C	MSH3	GO:0003677	Mismatch repair protein	DNA binding
+YCR096C	HMRA2	GO:0003677	Silenced copy of a2 at HMR	DNA binding
+YCR097W	HMRA1	GO:0003677	Silenced copy of a1 at HMR	DNA binding
+YCR106W	RDS1	GO:0003677	Putative zinc cluster transcription factor	DNA binding
+YDL002C	NHP10	GO:0003677	Non-essential INO80 chromatin remodeling complex subunit	DNA binding
+YDL020C	RPN4	GO:0003677	Transcription factor that stimulates expression of proteasome genes	DNA binding
+YDL056W	MBP1	GO:0003677	Transcription factor	DNA binding
+YDL102W	POL3	GO:0003677	Catalytic subunit of DNA polymerase delta	DNA binding
+YDL106C	PHO2	GO:0003677	Homeobox transcription factor	DNA binding
+YDL140C	RPO21	GO:0003677	RNA polymerase II largest subunit B220	DNA binding
+YDL150W	RPC53	GO:0003677	RNA polymerase III subunit C53	DNA binding
+YDL154W	MSH5	GO:0003677	Protein of the MutS family	DNA binding
+YDL156W	CMR1	GO:0003677	Nuclear protein with a role in protein quality control	DNA binding
+YDL164C	CDC9	GO:0003677	DNA ligase I found in nucleus and mitochondria	DNA binding
+YDL170W	UGA3	GO:0003677	Transcriptional activator for GABA-dependent induction of GABA genes	DNA binding
+YDL185W	VMA1	GO:0003677	Subunit A of the V1 peripheral membrane domain of V-ATPase	DNA binding
+YDL200C	MGT1	GO:0003677	DNA repair methyltransferase (6-O-methylguanine-DNA methylase)	DNA binding
+YDL220C	CDC13	GO:0003677	Single stranded DNA-binding protein found at TG1-3 telomere G-tails	DNA binding
+YDL227C	HO	GO:0003677	Site-specific endonuclease	DNA binding
+YDR004W	RAD57	GO:0003677	Protein that stimulates strand exchange	DNA binding
+YDR026C	NSI1	GO:0003677	RNA polymerase I termination factor	DNA binding
+YDR034C	LYS14	GO:0003677	Transcriptional activator involved in regulating lysine biosynthesis	DNA binding
+YDR043C	NRG1	GO:0003677	Transcriptional repressor	DNA binding
+YDR052C	DBF4	GO:0003677	Regulatory subunit of Cdc7p-Dbf4p kinase complex	DNA binding
+YDR076W	RAD55	GO:0003677	Protein that stimulates strand exchange	DNA binding
+YDR081C	PDC2	GO:0003677	Transcription factor for thiamine-regulated genes	DNA binding
+YDR096W	GIS1	GO:0003677	Histone demethylase and transcription factor	DNA binding
+YDR097C	MSH6	GO:0003677	Protein required for mismatch repair in mitosis and meiosis	DNA binding
+YDR110W	FOB1	GO:0003677	Nucleolar protein that binds the rDNA replication fork barrier site	DNA binding
+YDR123C	INO2	GO:0003677	Transcription factor	DNA binding
+YDR145W	TAF12	GO:0003677	Subunit (61/68 kDa) of TFIID and SAGA complexes	DNA binding
+YDR146C	SWI5	GO:0003677	Transcription factor that recruits Mediator and Swi/Snf complexes	DNA binding
+YDR174W	HMO1	GO:0003677	Chromatin associated high mobility group (HMG) family member	DNA binding
+YDR207C	UME6	GO:0003677	Rpd3L histone deacetylase complex subunit	DNA binding
+YDR213W	UPC2	GO:0003677	Sterol regulatory element binding protein	DNA binding
+YDR216W	ADR1	GO:0003677	Carbon source-responsive zinc-finger transcription factor	DNA binding
+YDR224C	HTB1	GO:0003677	Histone H2B	DNA binding
+YDR227W	SIR4	GO:0003677	SIR protein involved in assembly of silent chromatin domains	DNA binding
+YDR253C	MET32	GO:0003677	Zinc-finger DNA-binding transcription factor	DNA binding
+YDR259C	YAP6	GO:0003677	Basic leucine zipper (bZIP) transcription factor	DNA binding
+YDR263C	DIN7	GO:0003677	Mitochondrial nuclease functioning in DNA repair and replication	DNA binding
+YDR288W	NSE3	GO:0003677	Component of the SMC5-SMC6 complex	DNA binding
+YDR289C	RTT103	GO:0003677	Protein involved in transcription termination by RNA polymerase II	DNA binding
+YDR291W	HRQ1	GO:0003677	3'-5' DNA helicase that has DNA strand annealing activity	DNA binding
+YDR295C	HDA2	GO:0003677	Subunit of the HDA1 histone deacetylase complex	DNA binding
+YDR296W	MHR1	GO:0003677	Mitochondrial ribosomal protein of the large subunit	DNA binding
+YDR303C	RSC3	GO:0003677	Component of the RSC chromatin remodeling complex	DNA binding
+YDR310C	SUM1	GO:0003677	Transcriptional repressor that regulates middle-sporulation genes	DNA binding
+YDR314C	RAD34	GO:0003677	Protein involved in nucleotide excision repair (NER)	DNA binding
+YDR328C	SKP1	GO:0003677	Evolutionarily conserved kinetochore protein	DNA binding
+YDR332W	IRC3	GO:0003677	Double-stranded DNA-dependent helicase of the DExH/D-box family	DNA binding
+YDR334W	SWR1	GO:0003677	Swi2/Snf2-related ATPase	DNA binding
+YDR359C	EAF1	GO:0003677	Component of the NuA4 histone acetyltransferase complex	DNA binding
+YDR362C	TFC6	GO:0003677	Subunit of RNA polymerase III transcription initiation factor complex	DNA binding
+YDR369C	XRS2	GO:0003677	Protein required for DNA repair	DNA binding
+YDR386W	MUS81	GO:0003677	Subunit of structure-specific Mms4p-Mus81p endonuclease	DNA binding
+YDR392W	SPT3	GO:0003677	Subunit of the SAGA and SAGA-like transcriptional regulatory complexes	DNA binding
+YDR419W	RAD30	GO:0003677	DNA polymerase eta	DNA binding
+YDR421W	ARO80	GO:0003677	Zinc finger transcriptional activator of the Zn2Cys6 family	DNA binding
+YDR423C	CAD1	GO:0003677	AP-1-like basic leucine zipper (bZIP) transcriptional activator	DNA binding
+YDR440W	DOT1	GO:0003677	Nucleosomal histone H3-Lys79 methylase	DNA binding
+YDR448W	ADA2	GO:0003677	Transcription coactivator	DNA binding
+YDR451C	YHP1	GO:0003677	Homeobox transcriptional repressor	DNA binding
+YDR463W	STP1	GO:0003677	Transcription factor	DNA binding
+YDR520C	URC2	GO:0003677	Putative Zn(II)2Cys6 motif containing transcription factor	DNA binding
+YEL007W	MIT1	GO:0003677	Transcriptional regulator of pseudohyphal growth	DNA binding
+YEL009C	GCN4	GO:0003677	bZIP transcriptional activator of amino acid biosynthetic genes	DNA binding
+YEL032W	MCM3	GO:0003677	Protein involved in DNA replication	DNA binding
+YEL055C	POL5	GO:0003677	DNA Polymerase phi	DNA binding
+YER028C	MIG3	GO:0003677	Transcriptional regulator	DNA binding
+YER040W	GLN3	GO:0003677	Transcriptional activator of genes regulated by nitrogen catabolite r	DNA binding
+YER041W	YEN1	GO:0003677	Holliday junction resolvase	DNA binding
+YER045C	ACA1	GO:0003677	ATF/CREB family basic leucine zipper (bZIP) transcription factor	DNA binding
+YER064C	VHR2	GO:0003677	Non-essential nuclear protein	DNA binding
+YER088C	DOT6	GO:0003677	Protein involved in rRNA and ribosome biogenesis	DNA binding
+YER095W	RAD51	GO:0003677	Strand exchange protein	DNA binding
+YER105C	NUP157	GO:0003677	Subunit of the inner ring of the nuclear pore complex (NPC)	DNA binding
+YER111C	SWI4	GO:0003677	DNA binding component of the SBF complex (Swi4p-Swi6p)	DNA binding
+YER130C	COM2	GO:0003677	Transcription factor that binds IME1 Upstream Activation Signal (UAS)	DNA binding
+YER148W	SPT15	GO:0003677	TATA-binding protein (TBP)	DNA binding
+YER161C	SPT2	GO:0003677	Protein involved in negative regulation of transcription	DNA binding
+YER162C	RAD4	GO:0003677	Protein that recognizes and binds damaged DNA (with Rad23p) during NER	DNA binding
+YER164W	CHD1	GO:0003677	Chromatin remodeler that regulates various aspects of transcription	DNA binding
+YER169W	RPH1	GO:0003677	JmjC domain-containing histone demethylase	DNA binding
+YER171W	RAD3	GO:0003677	5' to 3' DNA helicase	DNA binding
+YER176W	ECM32	GO:0003677	DNA dependent ATPase/DNA helicase	DNA binding
+YER184C	TOG1	GO:0003677	Transcriptional activator of oleate genes	DNA binding
+YFL003C	MSH4	GO:0003677	Protein involved in meiotic recombination	DNA binding
+YFL021W	GAT1	GO:0003677	Transcriptional activator of nitrogen catabolite repression genes	DNA binding
+YFL031W	HAC1	GO:0003677	Basic leucine zipper (bZIP) transcription factor (ATF/CREB1 homolog)	DNA binding
+YFL036W	RPO41	GO:0003677	Mitochondrial RNA polymerase	DNA binding
+YFL052W	ZNF1	GO:0003677	Zinc cluster transcription factor that regulates respiratory growth	DNA binding
+YFR013W	IOC3	GO:0003677	Subunit of the Isw1a complex	DNA binding
+Q0085	ATP6	GO:0006811	Subunit a of the F0 sector of mitochondrial F1F0 ATP synthase	Ion transport
+YBL099W	ATP1	GO:0006811	Alpha subunit of the F1 sector of mitochondrial F1F0 ATP synthase	Ion transport
+YBR039W	ATP3	GO:0006811	Gamma subunit of the F1 sector of mitochondrial F1F0 ATP synthase	Ion transport
+YBR054W	YRO2	GO:0006811	Protein with a putative role in response to acid stress	Ion transport
+YBR127C	VMA2	GO:0006811	Subunit B of V1 peripheral membrane domain of vacuolar H+-ATPase	Ion transport
+YBR207W	FTH1	GO:0006811	Putative high affinity iron transporter	Ion transport
+YBR235W	VHC1	GO:0006811	Vacuolar membrane cation-chloride cotransporter (CCC)	Ion transport
+YBR295W	PCA1	GO:0006811	Cadmium transporting P-type ATPase	Ion transport
+YCR010C	ADY2	GO:0006811	Acetate transporter required for normal sporulation	Ion transport
+YCR021C	HSP30	GO:0006811	Negative regulator of the H(+)-ATPase Pma1p	Ion transport
+YDL004W	ATP16	GO:0006811	Delta subunit of the central stalk of mitochondrial F1F0 ATP synthase	Ion transport
+YDL120W	YFH1	GO:0006811	Mitochondrial matrix iron chaperone	Ion transport
+YDL128W	VCX1	GO:0006811	Vacuolar membrane antiporter with Ca2+/H+ and K+/H+ exchange activity	Ion transport
+YDL185W	VMA1	GO:0006811	Subunit A of the V1 peripheral membrane domain of V-ATPase	Ion transport
+YDL206W	YDL206W	GO:0006811	Putative protein of unknown function	Ion transport
+YDR033W	MRH1	GO:0006811	Protein that localizes primarily to the plasma membrane	Ion transport
+YDR038C	ENA5	GO:0006811	Protein with similarity to P-type ATPase sodium pumps	Ion transport
+YDR039C	ENA2	GO:0006811	P-type ATPase sodium pump	Ion transport
+YDR107C	TMN2	GO:0006811	Protein with a role in cellular adhesion and filamentous growth	Ion transport
+YDR205W	MSC2	GO:0006811	Endoplasmic reticulum zinc transporter	Ion transport
+YDR270W	CCC2	GO:0006811	Cu(+2)-transporting P-type ATPase	Ion transport
+YDR298C	ATP5	GO:0006811	Subunit 5 of the stator stalk of mitochondrial F1F0 ATP synthase	Ion transport
+YDR322C-A	TIM11	GO:0006811	Subunit e of mitochondrial F1F0-ATPase	Ion transport
+YDR377W	ATP17	GO:0006811	Subunit f of the F0 sector of mitochondrial F1F0 ATP synthase	Ion transport
+YDR384C	ATO3	GO:0006811	"Plasma membrane protein, putative ammonium transporter"	Ion transport
+YDR456W	NHX1	GO:0006811	Na+/H+ and K+/H+ exchanger	Ion transport
+YDR506C	GMC1	GO:0006811	Protein involved in meiotic progression	Ion transport
+YDR534C	FIT1	GO:0006811	Mannoprotein that is incorporated into the cell wall	Ion transport
+YEL027W	VMA3	GO:0006811	Proteolipid subunit c of the V0 domain of vacuolar H(+)-ATPase	Ion transport
+YEL051W	VMA8	GO:0006811	Subunit D of the V1 peripheral membrane domain of V-ATPase	Ion transport
+YEL065W	SIT1	GO:0006811	Ferrioxamine B transporter	Ion transport
+YER113C	TMN3	GO:0006811	Protein with a role in cellular adhesion and filamentous growth	Ion transport
+YER145C	FTR1	GO:0006811	High affinity iron permease	Ion transport
+YFL041W	FET5	GO:0006811	Multicopper oxidase	Ion transport
+YGL006W	PMC1	GO:0006811	Vacuolar Ca2+ ATPase involved in depleting cytosol of Ca2+ ions	Ion transport
+YGL008C	PMA1	GO:0006811	Plasma membrane P2-type H+-ATPase	Ion transport
+YGL160W	AIM14	GO:0006811	NADPH oxidase localized to the perinuclear ER	Ion transport
+YAL009W	SPO7	GO:0006629	Putative regulatory subunit of Nem1p-Spo7p phosphatase holoenzyme	Lipid metabolism
+YAR035W	YAT1	GO:0006629	Outer mitochondrial carnitine acetyltransferase	Lipid metabolism
+YBL011W	SCT1	GO:0006629	Glycerol 3-phosphate/dihydroxyacetone phosphate sn-1 acyltransferase	Lipid metabolism
+YBR026C	ETR1	GO:0006629	2-enoyl thioester reductase	Lipid metabolism
+YBR029C	CDS1	GO:0006629	Phosphatidate cytidylyltransferase (CDP-diglyceride synthetase)	Lipid metabolism
+YBR042C	CST26	GO:0006629	Acyltransferase	Lipid metabolism
+YBR159W	IFA38	GO:0006629	Microsomal beta-keto-reductase	Lipid metabolism
+YBR204C	LDH1	GO:0006629	Serine hydrolase	Lipid metabolism
+YBR265W	TSC10	GO:0006629	3-ketosphinganine reductase	Lipid metabolism
+YCL004W	PGS1	GO:0006629	Phosphatidylglycerolphosphate synthase	Lipid metabolism
+YCL026C-A	FRM2	GO:0006629	"Type II nitroreductase, using NADH as reductant"	Lipid metabolism
+YCR034W	ELO2	GO:0006629	"Fatty acid elongase, involved in sphingolipid biosynthesis"	Lipid metabolism
+YCR068W	ATG15	GO:0006629	Phospholipase	Lipid metabolism
+YDL015C	TSC13	GO:0006629	Enoyl reductase	Lipid metabolism
+YDL052C	SLC1	GO:0006629	1-acyl-sn-glycerol-3-phosphate acyltransferase	Lipid metabolism
+YDL109C	YDL109C	GO:0006629	Putative lipase	Lipid metabolism
+YDL133W	SRF1	GO:0006629	Regulator of phospholipase D (Spo14p)	Lipid metabolism
+YDL142C	CRD1	GO:0006629	Cardiolipin synthase	Lipid metabolism
+YDL237W	AIM6	GO:0006629	Protein of unknown function	Lipid metabolism
+YDR018C	YDR018C	GO:0006629	Probable membrane protein with three predicted transmembrane domains	Lipid metabolism
+YDR058C	TGL2	GO:0006629	Triacylglycerol lipase that is localized to the mitochondria	Lipid metabolism
+YDR062W	LCB2	GO:0006629	Component of serine palmitoyltransferase	Lipid metabolism
+YDR123C	INO2	GO:0006629	Transcription factor	Lipid metabolism
+YDR147W	EKI1	GO:0006629	Ethanolamine kinase	Lipid metabolism
+YDR294C	DPL1	GO:0006629	Dihydrosphingosine phosphate lyase	Lipid metabolism
+YDR297W	SUR2	GO:0006629	Sphinganine C4-hydroxylase	Lipid metabolism
+YDR367W	KEI1	GO:0006629	Component of inositol phosphorylceramide (IPC) synthase	Lipid metabolism
+YDR444W	YDR444W	GO:0006629	Putative hydrolase acting on ester bonds	Lipid metabolism
+YER005W	YND1	GO:0006629	Apyrase with wide substrate specificity	Lipid metabolism
+YER015W	FAA2	GO:0006629	Medium chain fatty acyl-CoA synthetase	Lipid metabolism
+YER019W	ISC1	GO:0006629	Inositol phosphosphingolipid phospholipase C	Lipid metabolism
+YER024W	YAT2	GO:0006629	Carnitine acetyltransferase	Lipid metabolism
+YER026C	CHO1	GO:0006629	Phosphatidylserine synthase	Lipid metabolism
+YER044C	ERG28	GO:0006629	Endoplasmic reticulum membrane protein	Lipid metabolism
+YER061C	CEM1	GO:0006629	Mitochondrial beta-keto-acyl synthase	Lipid metabolism
+YGL001C	ERG26	GO:0006629	C-3 sterol dehydrogenase	Lipid metabolism
+YGL012W	ERG4	GO:0006629	C-24(28) sterol reductase	Lipid metabolism
+YGL055W	OLE1	GO:0006629	Delta(9) fatty acid desaturase	Lipid metabolism
+YGL126W	SCS3	GO:0006629	Protein required for inositol prototrophy	Lipid metabolism
+YGL144C	ROG1	GO:0006629	Lipase with specificity for monoacylglycerol	Lipid metabolism
+YGL205W	POX1	GO:0006629	Fatty-acyl coenzyme A oxidase	Lipid metabolism
+YGR007W	ECT1	GO:0006629	Ethanolamine-phosphate cytidylyltransferase	Lipid metabolism
+YGR046W	TAM41	GO:0006629	Mitochondrial phosphatidate cytidylyltransferase (CDP-DAG synthase)	Lipid metabolism
+YGR060W	ERG25	GO:0006629	C-4 methyl sterol oxidase	Lipid metabolism
+YGR157W	CHO2	GO:0006629	Phosphatidylethanolamine methyltransferase (PEMT)	Lipid metabolism
+YGR170W	PSD2	GO:0006629	Phosphatidylserine decarboxylase of the Golgi and vacuolar membranes	Lipid metabolism
+YGR202C	PCT1	GO:0006629	Cholinephosphate cytidylyltransferase	Lipid metabolism
+YGR233C	PHO81	GO:0006629	Cyclin-dependent kinase (CDK) inhibitor	Lipid metabolism
+YHL003C	LAG1	GO:0006629	Ceramide synthase component	Lipid metabolism
+YHL020C	OPI1	GO:0006629	Transcriptional regulator of a variety of genes	Lipid metabolism
+YBR154C	RPB5	GO:0006366	RNA polymerase subunit ABC27	Transcription
+YBR198C	TAF5	GO:0006366	Subunit (90 kDa) of TFIID and SAGA complexes	Transcription
+YCR042C	TAF2	GO:0006366	TFIID subunit (150 kDa)	Transcription
+YDL074C	BRE1	GO:0006366	E3 ubiquitin ligase	Transcription
+YDL108W	KIN28	GO:0006366	"Serine/threonine protein kinase, subunit of transcription factor TFIIH"	Transcription
+YDL140C	RPO21	GO:0006366	RNA polymerase II largest subunit B220	Transcription
+YDR145W	TAF12	GO:0006366	Subunit (61/68 kDa) of TFIID and SAGA complexes	Transcription
+YDR167W	TAF10	GO:0006366	Subunit (145 kDa) of TFIID and SAGA complexes	Transcription
+YDR311W	TFB1	GO:0006366	Subunit of TFIIH and nucleotide excision repair factor 3 complexes	Transcription
+YDR392W	SPT3	GO:0006366	Subunit of the SAGA and SAGA-like transcriptional regulatory complexes	Transcription
+YDR404C	RPB7	GO:0006366	RNA polymerase II subunit B16	Transcription
+YDR460W	TFB3	GO:0006366	Subunit of TFIIH and nucleotide excision repair factor 3 complexes	Transcription
+YDR527W	RBA50	GO:0006366	Protein involved in transcription	Transcription
+YER139C	RTR1	GO:0006366	CTD phosphatase	Transcription
+YER148W	SPT15	GO:0006366	TATA-binding protein (TBP)	Transcription
+YER171W	RAD3	GO:0006366	5' to 3' DNA helicase	Transcription
+YGL058W	RAD6	GO:0006366	Ubiquitin-conjugating enzyme (E2)	Transcription
