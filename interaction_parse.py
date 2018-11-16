@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[34]:
 
 
 #Load required modules
@@ -11,49 +11,33 @@ import numpy as np
 import pandas as pd
 
 
-# In[5]:
+# In[71]:
 
 
 def import_data(filename):
     data = pd.read_csv(filename, sep="\t", header=0)
     return(data)
 
-directory = '/home/dikshantpradhan/Documents/'
-data = import_data(directory + 'Data File S1. Raw genetic interaction datasets: Pair-wise interaction format/SGA_ExE.txt')
-single_mutant_data = import_data(directory + 'Data File S1. Raw genetic interaction datasets: Pair-wise interaction format/strain_ids_and_single_mutant_fitness.csv')
+def reduce_dataset(dbl_fitness, genes, query_column = 'Query allele name', array_column = 'Array allele name'):
+    query_idxs = search_genes(dbl_fitness[query_column], genes)
+    print(query_idxs)
+    array_idxs = search_genes(dbl_fitness[array_column], genes)
+    print(array_idxs)
+    idxs = intersection(query_idxs, array_idxs)
+    print(idxs)
+    return(dbl_fitness.ix[idxs])
+
+#data = import_data('/home/dikshant/Documents/jensn lab/yeast/Data File S1. Raw genetic interaction datasets: Pair-wise interaction format/SGA_ExE.txt')
+single_mutant_data = import_data('/home/dikshantpradhan/Documents/Data File S1. Raw genetic interaction datasets: Pair-wise interaction format/strain_ids_and_single_mutant_fitness.csv')
 #single_mutant_data
-GO_data = import_data('/home/dikshantpradhan/GitHub/CS598-Course-Project/GOTermGeneListForClassificationYeast.txt')
+#GO_data = import_data('/home/dikshant/GitHub/CS598-Course-Project/GOTermGeneListForClassificationYeast.txt')
 
-ExE_data = import_data(directory + 'Data File S1. Raw genetic interaction datasets: Pair-wise interaction format/SGA_ExE.txt')
-NxN_data = import_data(directory + 'Data File S1. Raw genetic interaction datasets: Pair-wise interaction format/SGA_NxN.txt')
-NxE_data = import_data(directory + 'Data File S1. Raw genetic interaction datasets: Pair-wise interaction format/SGA_ExN_NxE.txt')
-
-
-# In[6]:
+training_genes = import_data('GOTermGeneListForClassificationYeastTraining.txt')
+testing_genes = import_data('GOTermGeneListForClassificationYeastTest.txt')
+data = pd.read_csv('specific_interaction_data.csv', sep=',',header=0)
 
 
-#data
-
-
-# In[7]:
-
-
-#print(ExE_data.shape)
-#print(NxN_data.shape)
-#print(NxE_data.shape)
-full_data = pd.concat([ExE_data, NxN_data, NxE_data])
-full_data.index = range(full_data.shape[0])
-#print(full_data.shape[0])
-#full_data
-
-
-# In[8]:
-
-
-#full_data['Double mutant fitness'][list([2,3,4])]
-
-
-# In[17]:
+# In[37]:
 
 
 def parse_fitness_helper(i, j, ij, pred_tol = 0.1, class_tol = 0.1):
@@ -88,7 +72,7 @@ def parse_fitness(i, j, ij, pred_tol = 0.1, class_tol = 0.1):
     return(classification)
 
 
-# In[10]:
+# In[77]:
 
 
 # build matrix
@@ -109,6 +93,14 @@ def search_gene(mylist, gene):
     idxs = list(chain.from_iterable(idxs))
     return(idxs)
 
+def search_genes(mylist, genes):
+    idxs = []
+    for gene in genes:
+        new_idxs = search_gene(mylist, gene)
+        idxs.append(new_idxs)
+    idxs = list(chain.from_iterable(idxs))
+    return(idxs)
+
 def append_list(mylist, add):
     mylist.append(add)
     mylist = list(chain.from_iterable(mylist))
@@ -118,18 +110,17 @@ def intersection(lst1, lst2):
     lst3 = [value for value in lst1 if value in lst2]
     return lst3
 
-def extract_single_mutant_fitness(df, gene, gene_column = 'Allele/Gene name',
+def extract_single_mutant_fitness(df, gene, gene_column = 'Strain ID',
                                   fitness_column = 'Single mutant fitness (26°)'):
-    gene = gene.lower()
+    gene = gene#.lower()
     idxs = search_gene(df[gene_column], gene)
     mean = np.mean(df[fitness_column][idxs])
     return(mean)
 
-#print(extract_single_mutant_fitness(single_mutant_data, 'rpc82'))
 
 def extract_double_mutant_fitness(df, query_gene, array_gene,
-                                 query_column = 'Query allele name', array_column = 'Array allele name',
-                                 fitness_column = 'Double mutant fitness'):
+                                 query_column = 'Query.Strain.ID', array_column = 'Array.Strain.ID',
+                                 fitness_column = 'Double.mutant.fitness'):
     q_idxs = search_gene(df[query_column], query_gene)
     a_idxs = search_gene(df[array_column], array_gene)
 
@@ -140,39 +131,27 @@ def extract_double_mutant_fitness(df, query_gene, array_gene,
     mean = np.mean(df[fitness_column][dbl_mutant_idxs])
     return(mean)
 
-#extract_double_mutant_fitness(full_data,'tfc3','stu1')
 
 
-# In[11]:
-
-
-reference_genes = ['TFC3', 'ARH1']
-query_genes = ['MCM2', 'LSM2', 'STU1']
-
-#reference_genes = reference_genes.lower()
-#query_genes = query_genes.lower()
-
+# In[74]:
 
 def build_interaction_mtx(reference_genes, query_genes, double_mutant_df, single_mutant_df):
     m = len(reference_genes)
     n = len(query_genes)
     mtx = np.zeros([n,m])
+    print(reference_genes)
 
     for i in range(0,m):
-        gene_i = reference_genes[i].lower()
+        gene_i = reference_genes[i+1]#.lower()
+        print(gene_i)
         for j in range(0,n):
-            gene_j = query_genes[j].lower()
+            gene_j = query_genes[j+1]#.lower()
             fitness = 0
             fitness = extract_double_mutant_fitness(double_mutant_df, gene_i, gene_j)
             mtx[j,i] = fitness
     return(mtx)
 
-#dbl_mutant_fit = build_interaction_mtx(reference_genes, query_genes, full_data, single_mutant_data)
-#print(dbl_mutant_fit)
-#print(dbl_mutant_fit[1][0])
-
-
-# In[12]:
+# In[84]:
 
 
 def build_fitness_mtx(reference_genes, query_genes, double_mutant_df, single_mutant_df):
@@ -183,11 +162,12 @@ def build_fitness_mtx(reference_genes, query_genes, double_mutant_df, single_mut
     double_mutant_fitness = build_interaction_mtx(reference_genes, query_genes, double_mutant_df, single_mutant_df)
 
     for i in range(0,m):
-        gene_i = reference_genes[i]
+        gene_i = reference_genes[i+1]
         reference_fitness = extract_single_mutant_fitness(single_mutant_df, gene_i)
         for j in range(0,n):
-            gene_j = query_genes[j]
+            gene_j = query_genes[j+1]
             query_fitness = extract_single_mutant_fitness(single_mutant_df, gene_j)
+            #print(reference_fitness); print(query_fitness)
             dbl_fitness = double_mutant_fitness[j][i]
             #print(query_fitness); print(dbl_fitness)
             interact_label = parse_fitness(reference_fitness, query_fitness, dbl_fitness)
@@ -197,12 +177,8 @@ def build_fitness_mtx(reference_genes, query_genes, double_mutant_df, single_mut
     return(interaction)
     # fitness = extract_single_mutant_fitness(single_mutant_df, gene_i)
 
-#mtx = build_fitness_mtx(reference_genes, query_genes, full_data, single_mutant_data)
-#mtx
-#mtx['MCM2']['TFC3']
 
-
-# In[13]:
+# In[80]:
 
 
 def diff(first, second):
@@ -229,11 +205,11 @@ def sample_categories(GO_data, nsamples = 5):
     query_genes = np.unique(query_genes)
     return([reference_genes, query_genes])
 
-genes = sample_categories(GO_data)
+#genes = sample_categories(GO_data)
 #genes[0]
 
 
-# In[16]:
+# In[85]:
 
 
 def interaction_dataframe(reference_genes, query_genes, double_mutant_data, single_mutant_data):
@@ -246,17 +222,19 @@ def interaction_dataframe(reference_genes, query_genes, double_mutant_data, sing
 
     return(df)
 
-#df = interaction_dataframe(genes[0][range(5)], genes[1][range(20)], full_data, single_mutant_data)
-#print(df)
+
+# In[39]:
 
 
-# In[20]:
+reference_genes = testing_genes['ESTID']
+query_genes = training_genes['ESTID']
+
+# In[83]:
 
 
-#mtx.to_csv('test.csv')
-all_genes = GO_data.GeneID
-df = interaction_dataframe(all_genes, all_genes, full_data, single_mutant_data)
+df = interaction_dataframe(reference_genes, query_genes, data, single_mutant_data)
 df.to_csv('full_interaction_data.csv')
+df
 
 
 # In[ ]:
